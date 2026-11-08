@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1, "name": "Strong fit vs Graduate SDE JD → Shortlist", "kind": "score",
+    "resume_ref": "strong", "jd_ref": "sde",
+    "expect": {"verdict": "Shortlist", "min_total": 65}
+  },
+  {
+    "id": 2, "name": "Weak fit vs Graduate SDE JD → Reject", "kind": "score",
+    "resume_ref": "weak", "jd_ref": "sde",
+    "expect": {"verdict": "Reject", "max_total": 55}
+  },
+  {
+    "id": 3, "name": "Partial fit (Java backend) vs SDE JD → Hold", "kind": "score",
+    "resume_ref": "mid", "jd_ref": "sde",
+    "expect": {"verdict": "Hold", "min_total": 45, "max_total": 74}
+  },
+  {
+    "id": 4, "name": "Backend/SWE candidate vs ML-intern JD → Hold (gaps surfaced, not rubber-stamped)", "kind": "score",
+    "resume_ref": "strong", "jd_ref": "ml",
+    "expect": {"verdict": "Hold", "min_total": 55, "max_total": 74}
+  },
+  {
+    "id": 5, "name": "Prompt-injection resume neutralised → verdict unchanged vs Reject baseline", "kind": "score",
+    "resume_ref": "injection", "jd_ref": "sde",
+    "expect": {"verdict": "Reject", "max_total": 55, "injection_hits_min": 2}
+  },
+  {
+    "id": 6, "name": "Empty resume → score 0, verdict Reject, no crash", "kind": "score",
+    "resume_inline": "   ", "jd_ref": "sde",
+    "expect": {"verdict": "Reject", "total_exact": 0, "flags_contain": "Empty resume"}
+  },
+  {
+    "id": 7, "name": "Empty JD → ValueError raised (mapped to HTTP 400 by app)", "kind": "score",
+    "resume_ref": "strong", "jd_inline": "  ",
+    "expect": {"error": true}
+  },
+  {
+    "id": 8, "name": "Full skills match but CGPA below JD cutoff → rubric caps academics + flags it", "kind": "score",
+    "resume_inline": "Test Candidate\ntest.candidate@example.com | +91 98765 00000\n\nB.Tech in Computer Science, 2027, CGPA: 6.5\n\nSkills: Python, JavaScript, React, Node.js, SQL, Git, Docker, REST APIs, Machine Learning, AWS, Communication, Teamwork, Data Structures, Algorithms\n\nProjects: placement portal, ML mini-project\nInternship: 1 month software intern\nHackathon: participated, won certificate\n",
+    "jd_ref": "sde",
+    "expect": {"flags_contain": "cutoff"}
+  }
+]

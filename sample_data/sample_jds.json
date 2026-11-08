@@ -1,0 +1,12 @@
+[
+  {
+    "id": "sde",
+    "label": "Graduate Software Engineer (campus) — Python / React, min 7.0 CGPA",
+    "jd": "Graduate Software Engineer — Campus Hiring (2027)\n\nWe are hiring freshers for our engineering team in Jaipur.\n\nRequirements:\n- B.Tech / MCA or equivalent in Computer Science or related field\n- Minimum 7.0 CGPA\n- Strong programming skills in Python and JavaScript\n- Experience with React or Node.js, SQL and Git\n- Understanding of REST APIs, DBMS and data structures and algorithms\n- Good communication and teamwork\n\nGood to have: Docker, Machine Learning, AWS\n\nNo prior work experience required; internships and projects valued.\n"
+  },
+  {
+    "id": "ml",
+    "label": "Machine Learning Intern — Python, ML, 1+ year preferred",
+    "jd": "Machine Learning Intern\n\nRequirements:\n- M.Tech / B.Tech / MCA in Computer Science or related field\n- At least 1 year of project or research experience in Machine Learning\n- Strong Python, Pandas, NumPy\n- Hands-on with Machine Learning, scikit-learn, Deep Learning or TensorFlow\n- Familiarity with NLP or LLMs is a plus\n- Good Git hygiene\n\nCandidates should have open source or Kaggle work to show.\n"
+  }
+]

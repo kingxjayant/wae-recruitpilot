@@ -1,0 +1,10 @@
+[
+  {"name": "Priya Sharma", "email": "priya.sharma@example.com", "phone": "+91 98765 43210", "role": "Graduate Software Engineer", "score": 88, "verdict": "Shortlist", "skills": ["Python", "JavaScript", "React", "Git", "SQL", "REST APIs"]},
+  {"name": "Rahul Verma", "email": "rahul.verma@example.com", "phone": "+91 98220 11223", "role": "Graduate Software Engineer", "score": 74, "verdict": "Hold", "skills": ["Java", "Spring Boot", "SQL", "Git", "DBMS"]},
+  {"name": "Ananya Iyer", "email": "ananya.iyer@example.com", "phone": "+91 99440 55678", "role": "Machine Learning Intern", "score": 91, "verdict": "Shortlist", "skills": ["Python", "Machine Learning", "Pandas", "NumPy", "TensorFlow", "Git"]},
+  {"name": "Mohd Faiz", "email": "faiz.ansari@example.com", "phone": "+91 97030 44556", "role": "Data Analyst", "score": 69, "verdict": "Hold", "skills": ["Python", "SQL", "Excel", "Data Analysis", "Data Visualization"]},
+  {"name": "Sneha Kulkarni", "email": "sneha.k@example.com", "phone": "+91 90111 23456", "role": "Frontend Developer", "score": 82, "verdict": "Shortlist", "skills": ["JavaScript", "React", "TypeScript", "HTML", "CSS", "Tailwind CSS", "Git"]},
+  {"name": "Divya Nair", "email": "divya.nair@example.com", "phone": "+91 95500 66778", "role": "Graduate Software Engineer", "score": 61, "verdict": "Hold", "skills": ["Python", "Flask", "SQL", "Linux"]},
+  {"name": "Karthik Raman", "email": "karthik.r@example.com", "phone": "+91 88990 12345", "role": "Machine Learning Intern", "score": 57, "verdict": "Hold", "skills": ["Python", "NumPy", "Machine Learning", "Data Analysis"]},
+  {"name": "Ishita Gupta", "email": "ishita.gupta@example.com", "phone": "+91 93456 78901", "role": "Graduate Software Engineer", "score": 43, "verdict": "Reject", "skills": ["HTML", "CSS", "Bootstrap"]}
+]
